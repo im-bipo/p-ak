@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary: #1a1a1a;
+    --action: #00b3dd;
+}
+
+h1 {
+    @apply text-3xl font-semibold;
+}
+h2 {
+    @apply text-2xl font-semibold;
+}
+h3 {
+    @apply text-xl font-semibold;
+}
+
+.container {
+    @apply max-w-[1600px] w-full mx-auto p-5 md:px-20 py-10;
+}
+
+.card {
+    @apply bg-[#fffcfc] h-[28rem] w-[20rem] rounded-sm;
+}
