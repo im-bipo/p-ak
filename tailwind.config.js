@@ -14,9 +14,6 @@ export default {
                 action: '#00b3dd',
             },
         },
-        backgroundImage: {
-            heroImage: `url('./src/assets/images/background image.jpeg')`,
-        },
     },
     plugins: [],
 }

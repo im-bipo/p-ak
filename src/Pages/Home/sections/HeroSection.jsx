@@ -1,8 +1,9 @@
 import React from 'react'
+import heroImg from '../../../../src/assets/images/background image.jpeg'
 
 const HeroSection = () => {
     return (
-        <main className="bg-heroImage bg-cover bg-center bg-no-repeat h-[100vh] text-white">
+        <main className="heroImage bg-cover bg-center bg-no-repeat h-[100vh] text-white">
             <div className="container h-[100vh] flex justify-center pt-20 items-center w-full">
                 <div className="text-center">
                     <h3 className="font-bold text-[1.25rem] md:text-[1.5rem]">

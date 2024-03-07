@@ -1,3 +1,11 @@
+import css from '../images/css.jpeg'
+import calculaotr from '../images/calculator.png'
+import git from '../images/git.jpeg'
+import html from '../images/html.jpeg'
+import landpage from '../images/landpage.jpeg'
+import myImage from '../images/myimage.jpg'
+import portfolio from '../images/portfolio.jpg'
+
 export const navMenu = [
     {
         id: 1,
@@ -32,56 +40,56 @@ export const project = [
         name: ' Project One',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.',
-        image: '/src/assets/images/landpage.jpeg',
+        image: landpage,
     },
     {
         id: 2,
         name: 'Project Two',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.',
-        image: '/src/assets/images/portfolio.jpg',
+        image: portfolio,
     },
     {
         id: 3,
         name: 'Project Three',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.',
-        image: '/src/assets/images/landpage.jpeg',
+        image: landpage,
     },
     {
         id: 4,
         name: 'Project Four',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.',
-        image: '/src/assets/images/landpage.jpeg',
+        image: landpage,
     },
     {
         id: 5,
         name: 'Project Five',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.',
-        image: '/src/assets/images/landpage.jpeg',
+        image: landpage,
     },
     {
         id: 6,
         name: 'Project Six',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.',
-        image: '/src/assets/images/landpage.jpeg',
+        image: landpage,
     },
     {
         id: 7,
         name: 'Project Seven',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.',
-        image: '/src/assets/images/landpage.jpeg',
+        image: landpage,
     },
     {
         id: 8,
         name: 'Project Eight',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.',
-        image: '/src/assets/images/landpage.jpeg',
+        image: landpage,
     },
 ]
 
@@ -89,31 +97,31 @@ export const skills = [
     {
         id: 1,
         name: 'Photoshop',
-        img: '/src/assets/images/css.jpeg',
+        img: css,
     },
     {
         id: 2,
         name: 'Illustrator',
-        img: '/src/assets/images/git.jpeg',
+        img: git,
     },
     {
         id: 3,
         name: 'HTML',
-        img: '/src/assets/images/css.jpeg',
+        img: html,
     },
     {
         id: 4,
         name: 'CSS',
-        img: '/src/assets/images/git.jpeg',
+        img: css,
     },
     {
         id: 5,
         name: 'JavaScript',
-        img: '/src/assets/images/css.jpeg',
+        img: html,
     },
     {
         id: 6,
         name: 'Figma',
-        img: '/src/assets/images/git.jpeg',
+        img: git,
     },
 ]

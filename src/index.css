@@ -16,7 +16,9 @@ h2 {
 h3 {
     @apply text-xl font-semibold;
 }
-
+.heroImage {
+    background-image: url('./assets/images/background image.jpeg');
+}
 .container {
     @apply max-w-[1600px] w-full mx-auto p-5 md:px-20 py-10;
 }
