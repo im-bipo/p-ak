@@ -6,7 +6,7 @@ const Skills = () => {
         <section className="bg-primary text-white">
             <div className="container">
                 <h2 className="text-center">Skills</h2>
-                <div className="flex justify-around py-10 flex-wrap">
+                <div className="flex gap-5 justify-around py-10 flex-wrap">
                     {skills.map((skill) => (
                         <div className="flex flex-col items-center">
                             <img
